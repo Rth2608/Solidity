@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DAO_attack.sol": "Dao"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DAO_attack.sol": {
+			"keccak256": "0x0eb5faaefde0f27a7260bbeaf61ba16067993a7721a6ac2e0ba323608a9ac483",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ddc59d29f093cbee4ed7b3c5aebb520eb921d684684c0692809141da266b8b3",
+				"dweb:/ipfs/QmTE25zJ9vU6wWbwHZkvAcLTYih2o6Liwdb9j8pM1J9WNA"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.32+commit.ebbd65e5"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMinMax",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "over",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "under",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getMinMax()": {
+					"notice": "tuple 반환값으로 index 0 : min, index 1 : max"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"기말 공부/easy/overflow.sol": "SimpleStorage"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"기말 공부/easy/overflow.sol": {
+			"keccak256": "0xbfa277754d9fa60b1b2fc16f3b9768644bd25bcdd35d6885b86e47c4538fcf13",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://61b8ca8be28c23ac26513bfee8f7e37dfb8180f07c895aafb6323d513819c658",
+				"dweb:/ipfs/Qmdsg7GKYeLsmruVg5K9MBxauBaep5ZNFaN22WbaD49Ax6"
+			]
+		}
+	},
+	"version": 1
+}

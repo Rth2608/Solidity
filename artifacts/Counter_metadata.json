@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.32+commit.ebbd65e5"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"기말 공부/HW/08/counter.sol": "Counter"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"기말 공부/HW/08/counter.sol": {
+			"keccak256": "0xca7189e2bba8f4d57e87c708b9f4bccd33df470c6d871397f4e643c7cee2cb4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c8c9a6dd96a96b6f4fc5ce722084de87c485410ba47f941ced5b1e58d98f25e",
+				"dweb:/ipfs/QmQZepkFCHT2g2rYPXcthfEtLkAydVhFhynR95asEYC5Jx"
+			]
+		}
+	},
+	"version": 1
+}

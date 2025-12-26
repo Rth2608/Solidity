@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Obtain",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "gerBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "_address.balance는 wei라서, 사람이 보기 쉽게 ether로 보고 싶으면 return _address.balance / 1 ether; // (정수 나눗셈이라 소수는 버려짐)",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"기말 공부/HW/test.sol": "funcReceive"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"기말 공부/HW/test.sol": {
+			"keccak256": "0xcbe6d322eb4e151df98fe9883f5bfc6986b311e23b819c67801ca6e0a7587cef",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ea5bcc4316b790018e1700031822856c8b0cf4c8881fcfb7c26a358385e2cb0d",
+				"dweb:/ipfs/QmXBsvoPHbZT5RHXPdf8zUqnA68ViWHxm1qSDbmh7FqdqN"
+			]
+		}
+	},
+	"version": 1
+}

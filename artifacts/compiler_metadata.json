@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "uint_max_overflow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uint_min_underflow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"overflow_underflow/compiler0.8.x/overflow_underflow.sol": "compiler"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"overflow_underflow/compiler0.8.x/overflow_underflow.sol": {
+			"keccak256": "0x7a3979cf326c8f211a7514a60f86be771b2a82e5a984dc603e618ccc766176f7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://021948f7cac93c1b1983e2f07508eaae17a923856431787d0af6601a866dd708",
+				"dweb:/ipfs/Qmcpxb1dEayQ793Z7qxUDsxCYPbWsdQPxvbBgceqifB7i6"
+			]
+		}
+	},
+	"version": 1
+}

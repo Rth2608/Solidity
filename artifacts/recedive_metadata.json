@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "_address.balance는 wei라서, 사람이 보기 쉽게 ether로 보고 싶으면 return _address.balance / 1 ether; // (정수 나눗셈이라 소수는 버려짐)",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"기말 공부/test.sol": "recedive"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"기말 공부/test.sol": {
+			"keccak256": "0xada8ffe1323d45bfbc63ecbb8e90a223c5030df485a27a82dc3cc1238f974eaa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4b6516217839b51a67bfc0d8a2fed75e6b999d0aaebe98a4c2cf78df24ed3b54",
+				"dweb:/ipfs/QmbpSkkFqzHKxLJD5EFkqeuBvW5BBUd9UJhdHYP9u5jpXF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "ethDelivery",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"기말 공부/HW/test.sol": "call"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"기말 공부/HW/test.sol": {
+			"keccak256": "0xcbe6d322eb4e151df98fe9883f5bfc6986b311e23b819c67801ca6e0a7587cef",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ea5bcc4316b790018e1700031822856c8b0cf4c8881fcfb7c26a358385e2cb0d",
+				"dweb:/ipfs/QmXBsvoPHbZT5RHXPdf8zUqnA68ViWHxm1qSDbmh7FqdqN"
+			]
+		}
+	},
+	"version": 1
+}
